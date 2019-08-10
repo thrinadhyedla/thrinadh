@@ -2,7 +2,7 @@
 void main()
 {
  int x,p,a;
- scanf("%d%d",&p,&d);
+ scanf("%d%d",&x,&p);
  a=x;
  while(a<1)
  {
