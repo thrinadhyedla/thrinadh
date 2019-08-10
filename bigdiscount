@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+ int x,p,a;
+ scanf("%d%d",&p,&d);
+ a=x;
+ while(a<1)
+ {
+ int j=(p/100)*a;
+ a=x-j;
+ x=x+a;
+ }
+ printf("%d",x);
+ }
