@@ -4,11 +4,12 @@ void main()
  int x,p,a;
  scanf("%d%d",&x,&p);
  a=x;
- while(a<1)
+ while(a>1)
  {
- int j=(p/100)*a;
- a=x-j;
- x=x+a;
+ int j=p*a/100;
+ a=a-j;
+ printf("%d\n",a);
+ x+=a;
  }
  printf("%d",x);
  }
